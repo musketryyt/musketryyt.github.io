@@ -199,10 +199,12 @@ h2 span {
 }
 
 
-@media (max-width:400px){
+
+
+@media (max-width:392px){
   .cards .card,
   .news .card {
-    width:418px;
+    width:414px;
     height: 830px;
     margin:20px;
     }
@@ -226,10 +228,11 @@ h2 span {
 
 
 
-@media (max-width:400px){
+@media (max-width:392px){
   .news .article {
-    width: 645px;
+    width: 642px;
     height: 400px;
     margin: 20px;
   }
 }
+
