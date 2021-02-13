@@ -23,20 +23,12 @@ body {
 @media only screen and (max-width: 400px) {
   .area {
     width:100%;
-    font-size: 70px;
+    font-size: 60px;
    width:1570px;
    position: absolute;
-   left:-455px;
+   left:-480px;
+   top:25px;
    
-   
-  }
-}
-
-@media (max-width:768px){
-  .area{
-    font-size:60px;
-    top:40px;
-    left: 10px;
   }
 }
 
