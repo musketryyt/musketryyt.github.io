@@ -1,0 +1,24 @@
+
+@media only screen and (max-width:768px) {
+    .cards .card,
+  .news .card {
+    width:400px;
+    height: 750px;
+    margin:20px;
+    }
+    .cards .card img,
+  .news .card img{
+    width: 100%;
+    min-height: 100%;
+    }
+    .wrapper{
+      position: absolute;
+      bottom:-10600px;
+      right:-850px;
+     left:-5px;
+      }
+      .cards,
+  .news {
+    flex-flow: row wrap;
+  }
+  }

@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+
+ font-family: "Open Sans",  Impact;
+}
+
+.area {
+  text-align: center;
+  font-size: 6.5em;
+  color:#fff
+  letter-spacing: -7px;
+  font-weight: 700;
+  text-transform: uppercase;
+  animation: blur .75s ease-out infinite;
+  text-shadow: 0px 0px 5px rgb(248, 12, 12), 0px 0px 7px rgb(238, 6, 6);
+  position:absolute;
+  top:0px;
+  left:40px;
+}
+
+
+@media only screen and (max-width: 400px) {
+  .area {
+    width:100%;
+    font-size: 70px;
+   width:1570px;
+   position: absolute;
+   left:-455px;
+   
+   
+  }
+}
+
+@media (max-width:768px){
+  .area{
+    font-size:60px;
+    top:40px;
+    left: 10px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes blur {
+  from {
+    text-shadow:0px 0px 10px #fff,
+      0px 0px 10px #fff, 
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #09ffde,
+      0px 0px 150px #00dee6,
+      0px 10px 100px #09c4fd,
+      0px 10px 100px #00e6f7,
+      0px 10px 100px #05f5d5,
+      0px 10px 100px #00d1ec,
+      0px -10px 100px #04e0f0,
+      0px -10px 100px #00ccff;
+  }
+}
