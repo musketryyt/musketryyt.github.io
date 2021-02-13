@@ -199,47 +199,11 @@ h2 span {
 }
 
 
-
-@media only screen and (max-width: 400px) {
-  .cards .card,
-.news .card {
-  width:330px;
-  height: 650px;
-  margin:20px;
-  }
-  .cards .card img,
-.news .card img{
-  width: 100%;
-  min-height: 100%;
-  }
-  .wrapper{
-    position: absolute;
-    bottom:-8600px;
-    right:-900px;
-   left:10px;
-    }
-    .cards,
-.news {
-  flex-flow: row wrap;
-}
-}
-
-
-@media only screen and (max-width: 400px) {
-  .news .article {
-    width: 520px;
-    height: 400px;
-    margin: 20px;
-   
-   
-  }
-}
-
-@media (max-width:620px){
+@media (max-width:400px){
   .cards .card,
   .news .card {
-    width:310px;
-    height: 630px;
+    width:418px;
+    height: 830px;
     margin:20px;
     }
     .cards .card img,
@@ -249,41 +213,10 @@ h2 span {
     }
     .wrapper{
       position: absolute;
-      bottom:-7850px;
-      right:-800px;
-     left:-12px;
-      }
-      .cards,
-  .news {
-    flex-flow: row wrap;
-  }
-}
-@media (max-width:620px){
-  .news .article {
-    width: 662px;
-    height: 400px;
-    margin: 20px;
-  }
-}
-
-
-@media (max-width:768px){
-  .cards .card,
-  .news .card {
-    width:310px;
-    height: 630px;
-    margin:20px;
-    }
-    .cards .card img,
-  .news .card img{
-    width: 100%;
-    min-height: 100%;
-    }
-    .wrapper{
-      position: absolute;
-      bottom:-7850px;
-      right:-800px;
-     left:-12px;
+      bottom:-9750px;
+      right:-1000px;
+      left: -10px;
+     
       }
       .cards,
   .news {
@@ -293,12 +226,10 @@ h2 span {
 
 
 
-@media (max-width:768px){
+@media (max-width:400px){
   .news .article {
-    width: 662px;
+    width: 645px;
     height: 400px;
     margin: 20px;
   }
 }
-
-
